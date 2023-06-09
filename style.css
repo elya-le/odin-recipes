@@ -1,15 +1,7 @@
-.recipe {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-}
-
-.recipe-header {
-    font-size: 20px;
-}
-
-.recipe-list {
-    font-size: 5px;
-    text-decoration: none;
+body {
+    line-height: 1.5;
+    margin: 50px;
+    padding: 50px;   
 }
 
 a:link {
@@ -25,4 +17,3 @@ a:hover {
 a:active {
     text-decoration: none;
 }
-
