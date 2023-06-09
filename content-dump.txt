@@ -1,0 +1,13 @@
+  <p>Content creator,</p>
+       <p>Recipe developer &</p>
+       <p>Food scientist</p>
+       </h1>
+
+       <h3>
+       <p>Hi, I'm Tina, aka Doobydobap!</p>
+       <p>Food is the medium I use to tell stories and connect</p>
+       <p>with people who share the same passion as I do.</p>
+       <p>with people who share the same passion as I do.</p>
+       <p>Whether it’s because you’re hungry at midnight or</p>
+       <p>trying to learn how to cook, I hope you enjoy</p>
+       <p>watching my content and recipes.</p>
