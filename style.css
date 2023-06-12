@@ -9,10 +9,14 @@
     padding: 5px;
 }
 
+.recipe-thumbnails {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
 .recipe-card {
     border: 1px solid rgb(30, 0, 255);
     font-size: 20px;
-    width: 400px;
     padding: 5px;
 }
 
@@ -25,7 +29,11 @@
 img {
     width: 300px;
     padding: 20px;
-    border: 1px solid rgb(244, 3, 3);
+    border: 1px solid blue;
+}
+
+.one {
+    background-color: red;
 }
 
 /* link styling */
