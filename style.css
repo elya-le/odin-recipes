@@ -4,12 +4,45 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    border: solid black;
+.topnav {
+    text-align: left;
+    padding: 5px;
+}
+
+.recipe-card {
+    border: 1px solid rgb(30, 0, 255);
     font-size: 20px;
+    width: 400px;
+    padding: 5px;
 }
 
 .list {
-    border: solid black;
+    border: 1px solid rgb(244, 3, 3);
     margin-top: 10px;
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid rgb(244, 3, 3);
+}
+
+/* link styling */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
 }
