@@ -1,4 +1,4 @@
-# Project 1: "Odin-Recipes"
+# Project 1: A recipe page for "Odin-Recipes"
 # New skills I will be displaying:
 #   - basic understanding of HTML/CSS
 #   - learning the workflow of VSCode/terminal/and commiting code to Github
