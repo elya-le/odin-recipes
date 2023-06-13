@@ -1,36 +1,39 @@
 * {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    fonrcolor: white;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+
 }
 
 .topnav {
     text-align: left;
-    padding: 5px;
+    padding: 10px;
 }
 
-.recipe-thumbnails {
-    border: 1px solid black;
-    font-size: 20px;
+.header {
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
 }
 
 .recipe-card {
-    border: 1px solid rgb(30, 0, 255);
-    font-size: 20px;
-}
-
-.list {
-    border: 1px solid rgb(244, 3, 3);
-    margin-top: 10px;
-    padding: 5px;
+    background-color: rgb(230, 230, 250);
+    padding: 10px;
 }
 
 img {
-    width: 300px;
+    width: 400px;
+    margin: 5px;
 }
 
 .one, .two , .three {
     background-color: rgb(230, 230, 250);
+    padding: 10px;
+    margin: 5px;
 }
 
 /* link styling */
