@@ -9,13 +9,18 @@
 
 .topnav {
     text-align: left;
-    padding: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    background-color: rgb(230, 230, 250);
 }
 
 .header {
     font-size: 30px;
     width: 420px;
-    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
     background-color: rgb(230, 230, 250);
 }
 
@@ -24,9 +29,9 @@
 }
 
 .recipe-card {
-    background-color: rgb(230, 230, 250);
     padding: 10px;
-    text-align: ;
+    margin: 5px;
+    background-color: rgb(230, 230, 250);
 }
 
 img {
