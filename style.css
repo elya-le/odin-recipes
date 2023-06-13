@@ -29,15 +29,6 @@
 .flex-container {
 }
 
-@media screen and (max-width: 500px) {
-  
-    .one,
-    .two,
-    .three {
-        width: 70%;
-    }
-}
-
 .recipe-card {
     padding: 10px;
     margin: 5px;
@@ -47,14 +38,21 @@
 img {
     max-width: 100%;
     height: auto;
+    max-height: 400px;
 }
 
 .one, .two , .three {
-    width: 25%;
+    width: 20%;
     display: inline-block;
     padding: 10px;
     margin: 5px;
     background-color: rgb(230, 230, 250);
+}
+
+@media screen and (max-width: 600px) {
+    .one, .two , .three {
+        width: 80%;
+    }
 }
 
 /* link styling */
