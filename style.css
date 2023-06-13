@@ -1,7 +1,7 @@
 * {
-    padding-left: 5px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+    fonrcolor: white;
 }
 
 .topnav {
@@ -17,7 +17,6 @@
 .recipe-card {
     border: 1px solid rgb(30, 0, 255);
     font-size: 20px;
-    padding: 5px;
 }
 
 .list {
@@ -28,12 +27,10 @@
 
 img {
     width: 300px;
-    padding: 20px;
-    border: 1px solid blue;
 }
 
-.one {
-    background-color: red;
+.one, .two , .three {
+    background-color: rgb(230, 230, 250);
 }
 
 /* link styling */
