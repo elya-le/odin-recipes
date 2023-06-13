@@ -8,7 +8,9 @@
 }
 
 .topnav {
+    font-size: 30px;
     text-align: left;
+    padding-left: 10px;
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
@@ -25,7 +27,15 @@
 }
 
 .flex-container {
-    display: flex;
+}
+
+@media screen and (max-width: 500px) {
+  
+    .one,
+    .two,
+    .three {
+        width: 70%;
+    }
 }
 
 .recipe-card {
@@ -35,17 +45,16 @@
 }
 
 img {
-    display: block;
-    max-width: 400px;
-    max-height: 500px;
-    width: auto;
+    max-width: 100%;
     height: auto;
 }
 
 .one, .two , .three {
-    background-color: rgb(230, 230, 250);
+    width: 25%;
+    display: inline-block;
     padding: 10px;
     margin: 5px;
+    background-color: rgb(230, 230, 250);
 }
 
 /* link styling */
