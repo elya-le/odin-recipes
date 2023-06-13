@@ -14,7 +14,7 @@
     margin-top: 5px;
     margin-right: 5px;
     margin-left: 5px;
-    background-color: rgb(230, 230, 250);
+    background-color: white;
 }
 
 .header {
@@ -22,7 +22,7 @@
     margin: auto;
     width: 100%;
     padding: 10px;
-    background-color: rgb(230, 230, 250);
+    background-color: white;
 }
 
 .flex-container {
@@ -31,26 +31,28 @@
 .recipe-card {
     padding: 10px;
     margin: 5px;
-    background-color: rgb(230, 230, 250);
+    background-color: white;
 }
 
 img {
     max-width: 100%;
     height: auto;
-    max-height: 400px;
+    max-height: 600px;
 }
 
 .one, .two , .three {
-    width: 20%;
+    font-size: 1vw;
+    width: 30%;
     display: inline-block;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(230, 230, 250);
+    background-color: white;
+    border: solid 1px rgb(173, 170, 170);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width:700px) {
     .one, .two , .three {
-        width: 80%;
+        width: 50%;
     }
 }
 
